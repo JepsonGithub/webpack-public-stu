@@ -709,12 +709,10 @@ module.exports = merge(base, {
 
 ```json
 {
-  // 其他配置
   "scripts": {
     "build": "webpack --config config/webpack.pro.js",
     "dev": "webpack-dev-server --config config/webpack.dev.js"
   },
-  // 其他配置
 }
 ```
 
