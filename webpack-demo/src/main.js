@@ -18,3 +18,8 @@ $(function() {
   $('#app li:nth-child(odd)').css('color', 'red')
   $('#app li:nth-child(even)').css('color', 'green')
 })
+
+const fn = () => {
+  console.log('嘎嘎')
+}
+fn()
