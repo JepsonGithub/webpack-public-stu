@@ -538,12 +538,12 @@ yarn add webpack-merge -D
 
 ```js
 - webpack-demo
-	- config 				// 存放配置文件的文件夹
-		- webpack.base.js	// 公共的配置
-		- webpack.dev.js	// 开发环境的配置
-		- webpack.pro.js	// 生成环境的配置
+  - config 				// 存放配置文件的文件夹
+    - webpack.base.js	// 公共的配置
+    - webpack.dev.js	// 开发环境的配置
+    - webpack.pro.js	// 生成环境的配置
 
-	- // 其他文件
+  - // 其他文件
 ```
 
 ## 配置文件
@@ -724,9 +724,9 @@ module.exports = merge(base, {
 
 ```js
 - webpack-demo
-	- src
-		- index.js
-		- about.js
+  - src
+    - index.js
+    - about.js
 ```
 
 > **注意：**index.js和about.js没有任何关系，都是独立的不相互引用。
@@ -776,11 +776,11 @@ module.exports = {
 
 ```js
 - webpack-demo
-	- dist
-		- js
-			- index.bundle.js
-			- about.bundle.js
-		- index.html
+  - dist
+    - js
+      - index.bundle.js
+      - about.bundle.js
+    - index.html
 ```
 
 
