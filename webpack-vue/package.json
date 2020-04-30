@@ -28,7 +28,7 @@
     "dev": "webpack-dev-server --config config/webpack.dev.js"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lib-flexible": "^0.3.2",
     "postcss-px2rem": "^0.3.0",
     "vue": "^2.6.11",
